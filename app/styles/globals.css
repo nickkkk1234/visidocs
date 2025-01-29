@@ -1,0 +1,13 @@
+.accordion-item {
+  overflow: hidden;
+  transition: width 0.3s ease;
+}
+
+.accordion-item.open .accordion-content {
+  width: 100%;
+}
+
+.accordion-content {
+  width: 0;
+  transition: width 0.3s ease;
+}
